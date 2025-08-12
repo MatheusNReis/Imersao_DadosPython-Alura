@@ -10,8 +10,8 @@ st.set_page_config(
     layout="wide",
 )
 
-# --- Carregamento dos dados ---
-df = pd.read_csv("https://raw.githubusercontent.com/vqrca/dashboard_salarios_dados/refs/heads/main/dados-imersao-final.csv")
+# --- Carregamento dos dados a partir do banco de MatheusNReis---
+df = pd.read_csv("https://raw.githubusercontent.com/MatheusNReis/Imersao_DadosPython-Alura/refs/heads/main/Data_Salaries.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
